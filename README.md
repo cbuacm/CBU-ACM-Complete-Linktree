@@ -1,2 +1,5 @@
 # CBU-ACM-Complete-Linktree
-An example of a completed version of the Linktree project.
+The complete files for the first linktree project.
+<hr>
+
+This is an example of what a completed linktree project might look like. You should style it and make it your own though.
