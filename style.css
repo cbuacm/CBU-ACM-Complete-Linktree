@@ -1,0 +1,102 @@
+html{
+    min-height: 100%;
+
+    background-image: linear-gradient(#6699DD,#003399);
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+/**
+.profile-content targets all HTML elements
+with the "profile-content" class.
+
+It is the parent container for both the profile-header
+and profile-buttons containers which also have their associated styles.
+**/
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+/**--------------------------------------------------
+HEADER CONTENT OF YOUR PROFILE 
+--------------------------------------------------**/
+
+/**
+This is the container that holds your profile image
+as well as the title of your linktree clone.
+**/
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    max-width: 680px;
+}
+/**
+This is a universal img selector. Since there is only one image
+on the page it is ok to use this here. This styles your profile
+image.
+**/
+img{
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+/**--------------------------------------------------
+BODY CONTENT OF YOUR PROFILE 
+--------------------------------------------------**/
+
+/**
+This is the container that holds your links for your
+different social media platforms.
+**/
+.profile-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 680px;
+}
+
+/**
+Styling for the individual buttons.
+APPLIES TO ALL BUTTONS WITH THE TAG
+**/
+.button{
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 12px;
+
+    transition: background-color 0.5s, color 0.5s;
+
+    width: 100%;
+}
+
+/**
+Changes the color of the buttons on hover
+**/
+.button:hover{
+    color: #003399;
+    background-color: #FFFFFF;
+}
